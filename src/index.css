@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@import 'aos/dist/aos.css';
+
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+button{
+  cursor: pointer;
+}
