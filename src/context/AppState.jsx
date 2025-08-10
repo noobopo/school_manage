@@ -14,11 +14,10 @@ const AppState = ({ children }) => {
         const profile = async () => {
             try {
                 const res = await axios.get(`${endpoint}/user/profile`, { withCredentials: true })
-                console.log(res);
-                
                 setIsAuthanticated(true)
                 setUser(res.data.user)
             } catch (error) {
+                setIsAuthanticated(false)
                 setUser({})
                 console.log(error?.response?.data?.message)
             }
