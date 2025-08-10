@@ -217,6 +217,7 @@ const LandingPage = () => {
             {/* Footer */}
             <footer className=" py-8 text-center">
                 <p>&copy; 2025 Digital Academy. All rights reserved.</p>
+                <p className="mt-1">Credentials for Demo | Email: kishalaydas971@gmail.com | password : 1234</p>
                 <p className="text-sm mt-1">Contact us: kishalaydas09@gmail.com</p>
             </footer>
         </div>
