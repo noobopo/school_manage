@@ -28,7 +28,9 @@ const SecondDash = () => {
     }
     fatchCourse()
     fatchUser()
-  }, [])
+    console.log("hello");
+    
+  }, [auth.endpoint])
 
   return (
     <div className=" px-4 md:px-12 py-6 bg-gray-50 ">
